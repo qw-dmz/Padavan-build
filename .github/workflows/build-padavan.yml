@@ -62,7 +62,7 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_ALIDDNS/d' .config #删除配置项阿里DDNS
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SMARTDNS/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SRELAY/d' .config
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_XFRM/d' .config #删除XFRM配置
+        sed -i '/CONFIG_FIRMWARE_INCLUDE_XFRM/d' .config #删除XFRM配置
         sed -i '/CONFIG_FIRMWARE_INCLUDE_QOS/d' .config #删除QOS配置
         sed -i '/CONFIG_FIRMWARE_INCLUDE_IMQ/d' .config #删除IMQ配置
         sed -i '/CONFIG_FIRMWARE_INCLUDE_IFB/d' .config #删除IFB配置
